@@ -38,13 +38,12 @@ public class A1Novice {
 				
 				double temp = number * price;
 				total = total + temp;
-				
-				
+			
 				
 				
 			}
 			
-			System.out.println(total);
+			System.out.println(String.format("%.2f", total));
 			
 			
 			
@@ -53,10 +52,7 @@ public class A1Novice {
 		
 		
 		
-		
-		
 
-	
 		
 		
 	}
