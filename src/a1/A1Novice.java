@@ -21,7 +21,7 @@ public class A1Novice {
 			
 			String firstname = scan.next();
 			String lastname = scan.next();
-			System.out.print(firstname.charAt(0) + ".");
+			System.out.print(firstname.charAt(0) + ". ");
 			System.out.print(lastname + ": ");
 			
 			int count2 = scan.nextInt();
