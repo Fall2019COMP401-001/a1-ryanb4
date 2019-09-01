@@ -97,8 +97,8 @@ public class A1Adept {
 					
 				}
 				
-				if (numberofcustomers < 2) {
-					minname = ""; 
+				if (minname.equals(maxname)) {
+					 minname = "";
 				}
 				
 				double average = 0.00;
