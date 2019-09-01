@@ -95,7 +95,7 @@ public class A1Adept {
 						minname = name[y];
 					}
 					if (numberofcustomers < 2) {
-						minname = "";
+						minname = ""; 
 					}
 				}
 				
