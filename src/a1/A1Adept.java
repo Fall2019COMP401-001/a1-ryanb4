@@ -94,9 +94,11 @@ public class A1Adept {
 						min = totalexpenditures[y];
 						minname = name[y];
 					}
-					if (numberofcustomers < 2) {
-						minname = ""; 
-					}
+					
+				}
+				
+				if (numberofcustomers < 2) {
+					minname = ""; 
 				}
 				
 				double average = 0.00;
