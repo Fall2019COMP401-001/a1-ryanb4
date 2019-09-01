@@ -90,16 +90,13 @@ public class A1Adept {
 				double min = max;
 				String minname = "";
 				for (int y = 0; y < numberofcustomers; y++) {
-					if (totalexpenditures[y] < min) {
+					if (totalexpenditures[y] <= min) {
 						min = totalexpenditures[y];
 						minname = name[y];
 					}
 					
 				}
-				
-				if (minname.equals(maxname)) {
-					 minname = "";
-				}
+			
 				
 				double average = 0.00;
 				double temp2 = 0.00;
@@ -115,8 +112,8 @@ public class A1Adept {
 				
 				
 				
-				System.out.println("Biggest: " + maxname + " (" + String.format("%.2f", max) + ")" );
-				System.out.println("Smallest: " + minname + " (" + String.format("%.2f", min) + ")" );
+				System.out.println("Biggest: " + maxname + " (" + String.format("%.2f", max) + ")");
+				System.out.println("Smallest: " + minname + " (" + String.format("%.2f", min) + ")");
 				System.out.println("Average: " + String.format("%.2f", average));
 				
 				
